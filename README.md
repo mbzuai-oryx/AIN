@@ -1,5 +1,5 @@
 
- <img src='images/AIN.png' align="left" width="15%" />
+ <img src='images/AIN.png' align="left" width="20%" />
    
  <h1> AIN: The Arabic INclusive Multimodal Model</h1>
 
