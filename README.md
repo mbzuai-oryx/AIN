@@ -10,7 +10,7 @@
   [![Chatbot](https://img.shields.io/badge/Chat_with🤖-AIN_Bot-FF66B3?style=flat)](https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM)
   [![Telegram](https://img.shields.io/badge/Telegram-Join%20Us-60E6CB?logo=telegram&style=flat)](https://t.me/arabicvlm_bot)
   [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/issues)
-  [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/Camel-Bench?color=FF6A07&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/stargazers)
+  [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/Camel-Bench?color=FF6A07&style=flat)](https://github.com/mbzuai-oryx/AIN/stargazers)
   [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666)](https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE)
 <br> 
 <br>
