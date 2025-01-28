@@ -1,5 +1,5 @@
 
-<img src='assets/icon3.png' align="right" width="30%" />
+<img src='images/AIN_logo1.pdf' align="right" width="30%" />
 
 # AIN: The Arabic INclusive Multimodal Model <br> 
 
