@@ -1,4 +1,6 @@
 <div align="center" style="margin-top:50px;"> 
+    <br><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;
    <img src='images/AIN.png' align="left" width="20%" />
 <div style="margin-top: 40px;">
    <h1>AIN: The Arabic INclusive Multimodal Model</h1> 
