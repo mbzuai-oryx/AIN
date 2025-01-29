@@ -44,8 +44,6 @@
 
 <div align="center">
 
-
-<br>
 <b> If you like our project, please give us a star ⭐ on GitHub for the latest update. </b><br>
 
 ---
