@@ -6,25 +6,22 @@
    
 <div>
    
-[Ahmed Heakl](https://huggingface.co/ahmedheakl)<sup>*</sup> &nbsp;
-[Sara Ghaboura](https://huggingface.co/SLMLAH)<sup>*</sup> &nbsp;
+[Ahmed Heakl](https://huggingface.co/ahmedheakl) <sup> * </sup> &nbsp;
+[Sara Ghaboura](https://huggingface.co/SLMLAH) <sup> * </sup> &nbsp;
 [Omkar Thawakar](https://omkarthawakar.github.io) &nbsp;
 [Fahad Shahbaz Khan](https://scholar.google.com/citations?hl=en&user=zvaeYnUAAAAJ) &nbsp;
 [Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ) &nbsp;
 [Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&user=_KlvMVoAAAAJ) &nbsp;
 [Salman Khan](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
-   
-<small><em>* Equal Contribution</em></small>
-</div>
-
+<br>
+<br>
   [![arXiv](https://img.shields.io/badge/arXiv-2410.18976-3399FF)](https://arxiv.org/abs/2410.18976)
   [![Our Page](https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat)](https://example.com)
   [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/issues)
   [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/AIN?color=FF6A07&style=flat)](https://github.com/mbzuai-oryx/AIN/stargazers)
   [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666)](https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE)
-<br>
-<br>
-<br>
+  <br>
+<em> <sup> *Equal Contribution  </sup> </em>
 
 ---
   <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ Try Our AIN Model ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
@@ -42,6 +39,16 @@
 </div>
 
 ---
+</div>
+
+<div align="center">
+
+
+<br>
+<b> If you like our project, please give us a star ⭐ on GitHub for the latest update. </b><br>
+
+---
+</div>
 <br>
 <br>
 
@@ -277,6 +284,8 @@ If you use AIN LMM in your research, please consider citing:
 <br>
 
 ---
+
+
 <p align="center">
    <img src="images/IVAL_logo.png" width="18%" style="display: inline-block; margin: 0 10px;" />
    <img src="images/Oryx_logo.png" width="10%" style="display: inline-block; margin: 0 10px;" />
