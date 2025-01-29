@@ -26,7 +26,7 @@
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
   
 <br>
-  <h2>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</h2>
+  <h2>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</h2>
 <br>
 
 ## 📖 Overview
@@ -120,8 +120,6 @@ If you use AIN LMM in your research, please consider citing:
 
 ```
 <br>
-<br>
-
 
 ## 🛡️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
