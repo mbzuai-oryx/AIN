@@ -23,7 +23,7 @@
  &emsp; &emsp;
   <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
-  
+    <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
 <br>
 <br>
 </div>
