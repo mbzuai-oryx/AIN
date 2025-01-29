@@ -1,4 +1,4 @@
-<div style="margin-top:50px;"> 
+<div align="center" style="margin-top:50px;"> 
    <img src='images/AIN.png' align="left" width="15%" />
    &nbsp;
 <div style="margin-top: 20px;">
