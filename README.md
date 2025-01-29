@@ -1,8 +1,21 @@
-<div align="center" style="margin-top:50px;"> 
-   <img src='images/AIN.png' align="left" width="12%" />
+<div style="margin-top:50px;"> 
+   <img src='images/AIN.png' align="left" width="15%" />
    &nbsp;
 <div style="margin-top: 20px;">
    <h1>AIN: The Arabic INclusive Multimodal Model</h1> 
+   
+<div>
+   
+[Ahmed Heakl](https://huggingface.co/ahmedheakl)<sup>*</sup> &nbsp;
+[Sara Ghaboura](https://huggingface.co/SLMLAH)<sup>*</sup> &nbsp;
+[Omkar Thawakar](https://omkarthawakar.github.io) &nbsp;
+[Fahad Shahbaz Khan](https://scholar.google.com/citations?hl=en&user=zvaeYnUAAAAJ) &nbsp;
+[Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ) &nbsp;
+[Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&user=_KlvMVoAAAAJ) &nbsp;
+[Salman Khan](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
+   
+<small><em>* Equal Contribution</em></small>
+</div>
 
   [![arXiv](https://img.shields.io/badge/arXiv-2410.18976-3399FF)](https://arxiv.org/abs/2410.18976)
   [![Our Page](https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat)](https://example.com)
@@ -33,13 +46,13 @@
 <br>
 
 ## 📢 Latest Updates
- 🔥 **Jan 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.
+ 🔥 **Jan 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.<br>
  🚀 Model weights will be released soon. 
 <br>
 <br>
 
 
-## 📖 Overview
+## <img src="images/AIN.png" width="4%" alt="AIN Logo"> Overview
 <p style="text-align: justify">
 AIN, the <b>Arabic Inclusive Multimodal Model</b>, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA) data to achieve state-of-the-art performance across diverse tasks and specialized domains. AIN is a <b>bilingual model</b> (MSA and English) with broad applications from <b>medical</b> to <b>agricultural</b> domains, excelling in <b>OCR and Document Understanding</b>, and <b>Remote Sensing Imaging</b>. Trained on <b>3.6M </b>samples, where <b>35%</b> of its Arabic data comes from authentic sources. Built on Qwen-2-VL, AIN empowers Arabic speakers with advanced, inclusive AI capabilities, outperforming leading models in key benchmarks. </p>
 <br>
