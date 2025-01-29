@@ -3,7 +3,7 @@
    &nbsp;
 <div style="margin-top: 20px;">
    <h1>AIN: The Arabic INclusive Multimodal Model</h1> 
-   
+
   [![arXiv](https://img.shields.io/badge/arXiv-2410.18976-3399FF)](https://arxiv.org/abs/2410.18976)
   [![Our Page](https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat)](https://example.com)
   [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/issues)
@@ -13,6 +13,7 @@
 <br>
 <br>
 
+---
   <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ Try Our AIN Model ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
    &emsp; &emsp;  &emsp;
   <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
@@ -24,15 +25,19 @@
   <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
     <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
-<br>
-<br>
 </div>
 </div>
 
+---
+<br>
+<br>
+
 ## 📢 Latest Updates
  🔥 **Jan 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.
+ 🚀 Model weights will be released soon. 
 <br>
 <br>
+
 
 ## 📖 Overview
 <p style="text-align: justify">
@@ -67,6 +72,7 @@ AIN is a versatile LMM excelling in visual and contextual understanding across d
 </p> 
 <br>
 
+---
 ## ⚖️ Quantitative Evaluation and Results
 AIN demonstrates state-of-the-art performance across diverse domains, surpassing both open- and closed-source models. Notably, it achieves an aggregate performance score of 63.77%, with significant gains in OCR, remote sensing, and agricultural image understanding.
 
@@ -204,6 +210,7 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
     </p>           
 <br>
 
+
 ## 🎯 Qualitative Evaluation
 The qualitative evaluation showcases AIN's advanced capabilities in handling diverse, complex tasks, including OCR, medical imaging, remote sensing, and cultural-specific understanding, with remarkable precision and contextual relevance. Unlike GPT-4o and LLaVA, AIN demonstrates superior performance in identifying intricate details and maintaining accuracy across varied query formats and multi-domain challenges.
 
@@ -218,6 +225,7 @@ The qualitative evaluation showcases AIN's advanced capabilities in handling div
 </div>
 <br>
 
+---
 ## 🧐 Data Verification and Toxicity Filtering
 A multi-step verification pipeline was implemented to ensure high-quality translations and safe visual data. Translation accuracy was assessed through human evaluation, where native Arabic speakers rated outputs against reference translations, and semantic similarity checks were conducted using **LaBSE**. Additionally, translated samples were reverse-translated and validated using **BLEU, METEOR, and ROUGE scores** to measure correctness, correlation, and overlap. For visual data, toxicity filtering was applied using **LLavaGuard’s safety policies and GPT-4o**, identifying and removing unsafe content related to violence, substance abuse, and harmful imagery, ensuring compliance with ethical AI standards.
 
@@ -238,6 +246,17 @@ A multi-step verification pipeline was implemented to ensure high-quality transl
 <br>
 <br>
 
+---
+##  License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<br>
+<br>
+
+## 💬 Contact us
+For questions or suggestions, feel free to reach out to us on [GitHub Discussions](https://github.com/mbzuai-oryx/AIN/discussions).
+
+---
+
 ## 📚 Citation
 
 If you use AIN LMM in your research, please consider citing:
@@ -247,11 +266,9 @@ If you use AIN LMM in your research, please consider citing:
 ```
 <br>
 
-## 🛡️ License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-<br>
-<br>
-
-## 💬 Contact us
-For questions or suggestions, feel free to reach out to us on [GitHub Discussions](https://github.com/mbzuai-oryx/AIN/discussions).
-
+---
+<p align="center">
+   <img src="images/IVAL_logo.png" width="18%" style="display: inline-block; margin: 0 10px;" />
+   <img src="images/Oryx_logo.png" width="10%" style="display: inline-block; margin: 0 10px;" />
+   <img src="images/MBZUAI_logo.png" width="50%" style="display: inline-block; margin: 0 10px;" />
+</p>
