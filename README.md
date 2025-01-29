@@ -93,7 +93,6 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
     </caption>
     <thead>
         <tr style="background-color: #e0e0e0;">
-            <th></th>
             <th>Models</th>
             <th>VQA</th>
             <th>OCR</th>
@@ -108,7 +107,6 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
     </thead>
     <tbody>
         <tr>
-            <td rowspan="4" "><h5><strong>Closed-<br>Source</strong></h5></td>
             <td><h5>GPT-4o</h5></td>
             <td><h5>🥇57.91</h5></td>
             <td><h5>🥈54.68</h5></td>
@@ -157,7 +155,6 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
             <td style="background-color: #d0d0d0;"><h5>44.40</h5></td>
         </tr>
         <tr>
-            <td rowspan="9"><h5><strong>Open-<br>Source</strong></h5></td>
             <td><h5>InternVL-8B</h5> </td>
             <td><h5>30.41</h5> </td>
             <td><h5>15.91</h5> </td>
