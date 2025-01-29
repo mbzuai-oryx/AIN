@@ -29,6 +29,11 @@
 </div>
 </div>
 
+## 📢 Latest Updates
+ 🔥 **Jan 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.
+<br>
+<br>
+
 ## 📖 Overview
 <p style="text-align: justify">
 AIN, the <b>Arabic Inclusive Multimodal Model</b>, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA) data to achieve state-of-the-art performance across diverse tasks and specialized domains. AIN is a <b>bilingual model</b> (MSA and English) with broad applications from <b>medical</b> to <b>agricultural</b> domains, excelling in <b>OCR and Document Understanding</b>, and <b>Remote Sensing Imaging</b>. Trained on <b>3.6M </b>samples, where <b>35%</b> of its Arabic data comes from authentic sources. Built on Qwen-2-VL, AIN empowers Arabic speakers with advanced, inclusive AI capabilities, outperforming leading models in key benchmarks. </p>
@@ -62,20 +67,141 @@ AIN is a versatile LMM excelling in visual and contextual understanding across d
 </p> 
 <br>
 
-## 📢 Latest Updates
- 🔥 **Jan 2025** AIN-7B moldel the first Arabic Inclusive LMM is released 🤗.
-<br>
-<br>
-
 ## ⚖️ Quantitative Evaluation and Results
 AIN demonstrates state-of-the-art performance across diverse domains, surpassing both open- and closed-source models. Notably, it achieves an aggregate performance score of 63.77%, with significant gains in OCR, remote sensing, and agricultural image understanding.
 
 <p align="center">
-   <img src="images/Eval_CAMEL.png" width="75%" alt="eval_table"  style="margin-right: 2px";/>
-    <h6>
-       <em>  <b>Table 1.</b> Performance comparison of AIN-7B against closed- and open-source models on the CAMEL-Bench dataset, demonstrating its superior aggregate performance across most domains.     </em>
-    </h6>
-</p> 
+<table>
+    <caption>
+        <h6>
+        <strong>Table 1. Performance comparison of AIN and different closed- and open-source LMMs across CAMEL-Bench domains.</strong> 
+        <br> <em>Best performance is marked with 🥇; second-best is 🥈.</em>
+            <strong>OCR</strong>: "OCR & Document Understanding", 
+            <strong>Video</strong>: "General Video & Multi-Image Understanding", 
+            <strong>RS</strong>: "Remote Sensing Understanding", 
+            <strong>CDT</strong>: "Chart, Diagram & Table Understanding", 
+            <strong>Agro.</strong>: "Agricultural Image Understanding", 
+            <strong>Cult.</strong>: "Cultural-Specific Understanding",  
+            <strong>Med.</strong>: "Medical Image Understanding".
+        </h6>
+    </caption>
+    <thead>
+        <tr style="background-color: #e0e0e0;">
+            <th></th>
+            <th>Models</th>
+            <th>VQA</th>
+            <th>OCR</th>
+            <th>Video</th>
+            <th>RS</th>
+            <th>CDT</th>
+            <th>Agro.</th>
+            <th>Cult.</th>
+            <th>Med.</th>
+            <th style="background-color: #d0d0d0;">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4" "><h5><strong>Closed-<br>Source</strong></h5></td>
+            <td><h5>GPT-4o</h5></td>
+            <td><h5>🥇57.91</h5></td>
+            <td><h5>🥈54.68</h5></td>
+            <td><h5>🥇74.28</h5></td>
+            <td><h5>🥈22.85</h5></td>
+            <td><h5>62.12</h5></td>
+            <td><h5>🥈81.79</h5></td>
+            <td><h5>🥇79.92</h5></td>
+            <td><h5>🥇49.26</h5></td>
+            <td><h5>🥈60.35</h5></td>
+        </tr>
+        <tr>
+            <td><h5>GPT-4o-mini</h5></td>
+            <td><h5>48.83</h5></td>
+            <td><h5>39.38</h5></td>
+           <td><h5>🥈68.12</h5></td>
+            <td><h5>16.93</h5></td>
+            <td><h5>🥇70.16</h5></td>
+            <td><h5>79.58</h5></td>
+            <td><h5>65.92</h5></td>
+           <td><h5>🥈47.37</h5></td>
+            <td style="background-color: #d0d0d0;"><h5>54.54</h5></td>
+        </tr>
+        <tr>
+            <td><h5>Gemini-1.5-Pro</h5></td>
+            <td><h5>46.68</h5></td>
+            <td><h5>28.68</h5></td>
+            <td><h5>42.95</h5></td>
+            <td><h5>17.07</h5></td>
+            <td><h5>47.06</h5></td>
+            <td><h5>72.14</h5></td>
+            <td><h5>56.24</h5></td>
+            <td><h5>33.78</h5></td>
+            <td style="background-color: #d0d0d0;"><h5>52.38</h5></td>
+        </tr>
+        <tr>
+            <td><h5>Gemini-1.5-flash</h5></td>
+            <td><h5>45.59</h5></td>
+            <td><h5>27.58</h5></td>
+            <td><h5>53.31</h5></td>
+            <td><h5>14.95</h5></td>
+            <td><h5>48.26</h5></td>
+            <td><h5>76.07</h5></td>
+            <td><h5>46.54</h5></td>
+            <td><h5>42.87</h5></td>
+            <td style="background-color: #d0d0d0;"><h5>44.40</h5></td>
+        </tr>
+        <tr>
+            <td rowspan="9"><h5><strong>Open-<br>Source</strong></h5></td>
+            <td><h5>InternVL-8B</h5> </td>
+            <td><h5>30.41</h5> </td>
+            <td><h5>15.91</h5> </td>
+            <td><h5>51.42</h5> </td>
+            <td><h5>5.36</h5> </td>
+            <td><h5>30.27</h5> </td>
+            <td><h5>44.47</h5> </td>
+            <td><h5>20.88</h5> </td>
+            <td><h5>29.48</h5> </td>
+            <td style="background-color: #d0d0d0;"><h5>28.52</h5> </td>
+        </tr>
+        <tr>
+            <td><h5>InternVL2.5-1B</h5> </td>
+            <td><h5>27.22</h5> </td>
+            <td><h5>19.45</h5> </td>
+            <td><h5>38.20</h5> </td>
+            <td><h5>3.39</h5> </td>
+            <td><h5>30.75</h5> </td>
+            <td><h5>39.53</h5> </td>
+            <td><h5>35.68</h5> </td>
+            <td><h5>21.27</h5> </td>
+            <td style="background-color: #d0d0d0;"><h5>26.94</h5> </td>
+        </tr>
+        <tr>
+            <td><h5>Qwen-VL-2B</h5> </td>
+            <td><h5>41.02</h5> </td>
+            <td><h5>22.93</h5> </td>
+            <td><h5>38.90</h5> </td>
+            <td><h5>12.56</h5> </td>
+            <td><h5>27.83</h5> </td>
+            <td><h5>52.02</h5> </td>
+            <td><h5>34.28</h5> </td>
+            <td><h5>29.12</h5> </td>
+            <td style="background-color: #d0d0d0;"><h5>32.33</h5> </td>
+        </tr>
+        <tr>
+            <td><h5>AIN-7B <em>(ours)</em></h5> </td>
+           <td><h5>🥈56.78</h5> </td>
+            <td><h5>🥇72.35</h5> </td>
+            <td><h5>64.09</h5> </td>
+            <td><h5>🥇45.92</h5> </td>
+           <td><h5>🥈64.10</h5> </td>
+            <td><h5>🥇85.05</h5> </td>
+           <td><h5>🥈78.09</h5> </td>
+            <td><h5>43.77</h5> </td>
+            <td style="background-color: #d0d0d0;"><h5>🏆63.77</h5> </td>
+        </tr>
+    </tbody>
+</table>
+    </p>           
 <br>
 
 ## 🎯 Qualitative Evaluation
