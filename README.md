@@ -1,18 +1,34 @@
 
- <img src='images/AIN.png' align="left" width="20%" />
+ <div> 
+   <img src='images/AIN.png' align="left" width="15%" />
+  <br>  
+  <br> 
+   <br>  
+  
+   <h1> AIN: The Arabic INclusive Multimodal Model</h1>   
    
- <h1> AIN: The Arabic INclusive Multimodal Model</h1>
-
-<!-- 00FAFA -->
-
   [![arXiv](https://img.shields.io/badge/arXiv-2410.18976-3399FF)](https://arxiv.org/abs/2410.18976)
   [![Our Page](https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat)](https://example.com)
-  [![Chatbot](https://img.shields.io/badge/Chat_with🤖-AIN_Bot-FF66B3?style=flat)](https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM)
-  [![Telegram](https://img.shields.io/badge/Telegram-Join%20Us-60E6CB?logo=telegram&style=flat)](https://t.me/arabicvlm_bot)
   [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/issues)
   [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/AIN?color=FF6A07&style=flat)](https://github.com/mbzuai-oryx/AIN/stargazers)
   [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666)](https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE)
-<br> 
+<br>
+<br>
+<br>
+
+  <h2>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ Try Our AIN Model! ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</h2>
+   &emsp; &emsp;  &emsp; &emsp;  &emsp; &emsp;
+  <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
+  &emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Demo Chatbot</a>
+   &emsp; &emsp;
+  <img src="https://github.com/user-attachments/assets/451fd639-7cb7-4e77-b7ed-c3678bf980e3" alt="telegram" width="25px" />
+  &emsp; <a href="https://t.me/arabicvlm_bot" target="_blank">AIN Telegram</a>
+ &emsp; &emsp;
+  <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
+  &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
+  
+<br>
+  <h2>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</h2>
 <br>
 
 ## 📖 Overview
@@ -108,17 +124,6 @@ If you use AIN LMM in your research, please consider citing:
 <br>
 <br>
 
-##  🔗 Join Us!
-<img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
-&emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Demo Chatbot</a>
-<br>
-<img src="https://github.com/user-attachments/assets/451fd639-7cb7-4e77-b7ed-c3678bf980e3" alt="telegram" width="25px" />
-&emsp; <a href="https://t.me/arabicvlm_bot" target="_blank">AIN Telegram</a>
-<br>
-<img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="whatsapp" width="25px" />
-&emsp; <a href="https://+46738645096" target="_blank">AIN WhatsApp</a> 
-<br>
-<br>
 
 ## 🛡️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
