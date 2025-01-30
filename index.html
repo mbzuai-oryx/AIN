@@ -333,6 +333,134 @@
             <p class="caption">Figure 2: Comparative performance across key domains</p>
         </div>
 
+    <table>
+    <caption>
+        <h6>
+        <strong>Table 1. Performance comparison of AIN and different closed- and open-source LMMs across CAMEL-Bench domains.</strong> 
+        <br> <em>Best performance is marked with 🥇; second-best is 🥈.</em>
+            <strong>OCR</strong>: "OCR & Document Understanding", 
+            <strong>Video</strong>: "General Video & Multi-Image Understanding", 
+            <strong>RS</strong>: "Remote Sensing Understanding", 
+            <strong>CDT</strong>: "Chart, Diagram & Table Understanding", 
+            <strong>Agro.</strong>: "Agricultural Image Understanding", 
+            <strong>Cult.</strong>: "Cultural-Specific Understanding",  
+            <strong>Med.</strong>: "Medical Image Understanding".
+        </h6>
+    </caption>
+    <thead>
+        <tr style="background-color: #e0e0e0;">
+            <th>Models</th>
+            <th>VQA</th>
+            <th>OCR</th>
+            <th>Video</th>
+            <th>RS</th>
+            <th>CDT</th>
+            <th>Agro.</th>
+            <th>Cult.</th>
+            <th>Med.</th>
+            <th style="background-color: #d0d0d0;">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GPT-4o</td>
+            <td>🥇57.91</td>
+            <td>🥈54.68</td>
+            <td>🥇74.28</td>
+            <td>🥈22.85</td>
+            <td>62.12</td>
+            <td>🥈81.79</td>
+            <td>🥇79.92</td>
+            <td>🥇49.26</td>
+            <td>🥈60.35</td>
+        </tr>
+        <tr>
+            <td>GPT-4o-mini</td>
+            <td>48.83</td>
+            <td>39.38</td>
+           <td>🥈68.12</td>
+            <td>16.93</td>
+            <td>🥇70.16</td>
+            <td>79.58</td>
+            <td>65.92</td>
+           <td>🥈47.37</td>
+            <td style="background-color: #d0d0d0;">54.54</td>
+        </tr>
+        <tr>
+            <td>Gemini-1.5-Pro</td>
+            <td>46.68</td>
+            <td>28.68</td>
+            <td>42.95</td>
+            <td>17.07</td>
+            <td>47.06</td>
+            <td>72.14</td>
+            <td>56.24</td>
+            <td>33.78</td>
+            <td style="background-color: #d0d0d0;">52.38</td>
+        </tr>
+        <tr>
+            <td>Gemini-1.5-flash</td>
+            <td>45.59</td>
+            <td>27.58</td>
+            <td>53.31</td>
+            <td>14.95</td>
+            <td>48.26</td>
+            <td>76.07</td>
+            <td>46.54</td>
+            <td>42.87</td>
+            <td style="background-color: #d0d0d0;">44.40</td>
+        </tr>
+        <tr>
+            <td>InternVL-8B </td>
+            <td>30.41 </td>
+            <td>15.91 </td>
+            <td>51.42 </td>
+            <td>5.36 </td>
+            <td>30.27 </td>
+            <td>44.47 </td>
+            <td>20.88 </td>
+            <td>29.48 </td>
+            <td style="background-color: #d0d0d0;">28.52 </td>
+        </tr>
+        <tr>
+            <td>InternVL2.5-1B </td>
+            <td>27.22 </td>
+            <td>19.45 </td>
+            <td>38.20 </td>
+            <td>3.39 </td>
+            <td>30.75 </td>
+            <td>39.53 </td>
+            <td>35.68 </td>
+            <td>21.27 </td>
+            <td style="background-color: #d0d0d0;">26.94 </td>
+        </tr>
+        <tr>
+            <td>Qwen-VL-2B </td>
+            <td>41.02 </td>
+            <td>22.93 </td>
+            <td>38.90 </td>
+            <td>12.56 </td>
+            <td>27.83 </td>
+            <td>52.02 </td>
+            <td>34.28 </td>
+            <td>29.12 </td>
+            <td style="background-color: #d0d0d0;">32.33 </td>
+        </tr>
+        <tr>
+            <td>AIN-7B <em>(ours)</em> </td>
+           <td>🥈56.78 </td>
+            <td>🥇72.35 </td>
+            <td>64.09 </td>
+            <td>🥇45.92 </td>
+           <td>🥈64.10 </td>
+            <td>🥇85.05 </td>
+           <td>🥈78.09 </td>
+            <td>43.77 </td>
+            <td style="background-color: #d0d0d0;">🏆63.77 </td>
+        </tr>
+    </tbody>
+</table>
+
         <!-- Qualitative Analysis -->
         <div class="fig-container-s fig-container-side">
             <img src="images/contre.png" alt="Qualitative Comparison">
