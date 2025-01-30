@@ -9,16 +9,6 @@
         body {
             position: relative;
         }
-        .background-logo {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%;
-            opacity: 0.1;
-            z-index: -1;
-            pointer-events: none;
-        }
         .demo-links {
             text-align: center;
             margin: 20px 0;
@@ -193,12 +183,11 @@
     </style>
 </head>
 <body>
-    <img src="images/AIN.png" alt="AIN Logo" class="background-logo">
     <div class="container">
-        <img src="images/AIN.png" alt="AIN Logo" class="main-logo">
-        
-        <h1 class="title">AIN: The Arabic INclusive Multimodal Model</h1>
-        
+        <img src="images/AIN.png" alt="AIN Logo" class="main-logo">   <h1 class="title">AIN</h1>
+    
+     
+        <h2 class="title">The Arabic INclusive Multimodal Model</h2>
         <!-- Authors -->
         <div class="is-size-5 publication-authors">
             <p>
@@ -311,116 +300,7 @@
                 <p class="caption">Figure 5: Distribution of toxicity filtering results</p>
             </div>
         </div>
-            <img src="images/AIN.png" alt="AIN Logo" class="logo">
-            <h1 class="title">AIN: The Arabic INclusive Multimodal Model</h1>
-            <!-- Authors -->
-            <div class="is-size-5 publication-authors">
-                <p>
-                    Ahmed Heakl<sup style="color:#3399FF;">1*</sup>, 
-                    Sara Ghaboura<sup style="color:#3399FF;">1*</sup>, 
-                    Omkar Thawakar<sup style="color:#3399FF;">1</sup>, <br>
-                    Fahad S. Khan<sup style="color:#3399FF;">1, </sup><sup style="color:#FF66B3;">2</sup>, 
-                    Hisham Cholakkal<sup style="color:#3399FF;">1</sup>,
-                    Rao M. Anwer<sup style="color:#3399FF;">1, </sup><sup style="color:#4CB5AE;">3</sup>,
-                    Salman Khan<sup style="color:#3399FF;">1, </sup><sup style="color:#FFA280;">4</sup>
-                </p>
-                <p>
-                    <sup style="color:#3399FF;">1</sup>Mohamed bin Zayed University of AI, 
-                    <sup style="color:#4CB5AE;">3</sup>Aalto University, 
-                    <sup style="color:#FF66B3;">2</sup>Linköping University, 
-                    <sup style="color:#FFA280;">4</sup>Australian National University
-                </p>
-            </div>
-
-            <div class="button-links">
-                <a href="#" class="button-link">
-                    <img src="images/paper.png" alt="Paper"> Paper
-                </a>
-                <a href="https://arxiv.org/abs/2410.18976" class="button-link">
-                    <img src="images/arxiv.png" alt="arXiv"> arXiv
-                </a>
-                <a href="https://github.com/mbzuai-oryx/AIN" class="button-link">
-                    <img src="images/github.png" alt="Code"> Code
-                </a>
-                <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" class="button-link">
-                    <img src="images/dataset.png" alt="Dataset"> Dataset
-                </a>
-                <a href="#" class="button-link">
-                    <img src="images/trophy.png" alt="Leaderboard"> Leaderboard
-                </a>
-            </div>
-        </div>
-
-        <!-- AIN Can See Figure -->
-        <div class="fig-container">
-            <img src="images/ain_can_see.png" alt="AIN Can See">
-            <p class="caption">
-                AIN, the Arabic Inclusive Multimodal Model, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA)
-                data to achieve state-of-the-art performance across diverse tasks and specialized domains.
-            </p>
-        </div>
-
-        <!-- Abstract -->
-        <div class="section">
-            <h2>Abstract</h2>
-            <p>
-                Amid the swift progress of large language models (LLMs) and their evolution into large multimodal models (LMMs), significant strides have been made in high-resource languages such as English and Chinese. While Arabic LLMs have seen notable progress, Arabic LMMs remain largely unexplored, often narrowly focusing on few specific aspects of the language and visual understanding. To bridge this gap, we introduce AIN—the Arabic Inclusive Multimodal Model—designed to excel across diverse domains.
-            </p>
-            <p>
-                AIN is an English-Arabic bilingual LMM designed to excel in both English and Arabic, leveraging a carefully constructed 3.6 million high-quality Arabic-English multimodal data samples. AIN demonstrates state-of-the-art Arabic performance, while also possessing strong English-language visual capabilities.
-            </p>
-        </div>
-
-        <!-- Latest Updates -->
-        <div class="section">
-            <h2>📢 Latest Updates</h2>
-            <p>🔥 <b>Jan 2025</b> AIN-7B model, the first Arabic Inclusive LMM, is released 🤗<br>
-            🚀 Model weights will be released soon.</p>
-        </div>
-
-        <!-- Key Features -->
-        <div class="features">
-            <h2>🌟 Key Features</h2>
-            <ul>
-                <li>First Arabic-centric inclusive Large Multimodal Model (LMM) trained on 3.6M samples</li>
-                <li>Includes 35% authentic Arabic data within its Arabic data subset</li>
-                <li>Achieves superior performance compared to both open- and closed-source models</li>
-                <li>Demonstrates robust bilingual capabilities (Arabic/English)</li>
-                <li>Exhibits advanced cultural understanding and domain expertise</li>
-            </ul>
-        </div>
-
-        <!-- Performance Analysis Figures -->
-        <div class="fig-container">
-            <img src="images/radar_chart.png" alt="Performance Analysis">
-            <p class="caption">Figure 1: Performance analysis of AIN-7B across CAMEL-Bench domains</p>
-        </div>
-
-        <div class="fig-container">
-            <img src="images/intro_bar.png" alt="Comparative Performance">
-            <p class="caption">Figure 2: Comparative performance across key domains</p>
-        </div>
-
-        <!-- Qualitative Analysis -->
-        <div class="fig-container side-by-side-images">
-            <img src="images/contre.png" alt="Qualitative Comparison">
-            <img src="images/qualitative.png" alt="Qualitative Examples">
-            <p class="caption">Figure 3: Qualitative analysis and examples</p>
-        </div>
-
-        <!-- Verification Pipeline -->
-        <div class="section">
-            <h2>🧐 Data Verification and Toxicity Filtering</h2>
-            <div class="fig-container">
-                <img src="images/verify_pipeline.png" alt="Verification Pipeline">
-                <p class="caption">Figure 4: Data verification and filtering pipeline</p>
-            </div>
-            <div class="fig-container">
-                <img src="images/toxicity.png" alt="Toxicity Distribution">
-                <p class="caption">Figure 5: Distribution of visual data toxicity filtering results</p>
-            </div>
-        </div>
-
+         
         <!-- Citation -->
         <div class="section">
             <h2>📚 Citation</h2>
