@@ -12,7 +12,7 @@
 [Omkar Thawakar](https://omkarthawakar.github.io) &nbsp;
 [Fahad Shahbaz Khan](https://scholar.google.com/citations?hl=en&user=zvaeYnUAAAAJ) &nbsp;
 [Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ) &nbsp;
-[Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&user=_KlvMVoAAAAJ) &nbsp;
+[Rao M. Anwer](https://scholar.google.com/citations?hl=en&user=_KlvMVoAAAAJ) &nbsp;
 [Salman Khan](https://scholar.google.com/citations?hl=en&user=M59O9lkAAAAJ)
 <br>
 <br>
