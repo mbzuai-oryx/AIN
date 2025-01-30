@@ -266,6 +266,31 @@
             border-radius: 4px;
             font-family: monospace;
         }
+        .abstract-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px 40px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .abstract-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .abstract-content {
+            text-align: justify;
+            line-height: 1.6;
+            margin: 0;
+            color: #2c2c2c;
+        }
+        .abstract-content p {
+            margin-bottom: 15px;
+        }
+        .abstract-content p:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -301,9 +326,8 @@
                   <img src="images/github.png" alt="Code"> Github
                 </a>
               </div>
-              
 
-
+    
         <div class="container1">
             <div class="demo-links">
                 <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">
@@ -330,15 +354,17 @@
         </div>
 
         <!-- Abstract -->
-        <div class="section">
-            <h2>Abstract</h2>
-            <p>
-                Amid the swift progress of large language models (LLMs) and their evolution into large multimodal models (LMMs), significant strides have been made in high-resource languages such as English and Chinese. While Arabic LLMs have seen notable progress, Arabic LMMs remain largely unexplored, often narrowly focusing on a few specific aspects of the language and visual understanding. To bridge this gap, we introduce  <b><em>AIN - the Arabic Inclusive Multimodal Model-</em></b> designed to excel across diverse domains.
-            </p> 
-            <p>
-                AIN is an English-Arabic <b>bilingual LMM</b> designed to excel in English and Arabic, leveraging carefully constructed <b>3.6 million</b> high-quality Arabic-English multimodal data samples. AIN demonstrates state-of-the-art Arabic performance, while also possessing strong English-language visual capabilities.
-            </p>
-        </div>
+            <div class="abstract-container">
+                <h2>Abstract</h2>
+                <div class="abstract-content">
+                    <p>
+                        Amid the swift progress of large language models (LLMs) and their evolution into large multimodal models (LMMs), significant strides have been made in high-resource languages such as English and Chinese. While Arabic LLMs have seen notable progress, Arabic LMMs remain largely unexplored, often narrowly focusing on a few specific aspects of the language and visual understanding. To bridge this gap, we introduce <b><em>AIN - the Arabic Inclusive Multimodal Model-</em></b> designed to excel across diverse domains.
+                    </p>
+                    <p>
+                        AIN is an English-Arabic <b>bilingual LMM</b> designed to excel in English and Arabic, leveraging carefully constructed <b>3.6 million</b> high-quality Arabic-English multimodal data samples. AIN demonstrates state-of-the-art Arabic performance, while also possessing strong English-language visual capabilities.
+                    </p>
+                </div>
+            </div>
 
         <!-- Latest Updates -->
         <div class="section">
