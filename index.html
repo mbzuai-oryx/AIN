@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIN: The Arabic Inclusive Multimodal Model</title>
+    <style>
+        body {
+            position: relative;
+        }
+        .background-logo {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            opacity: 0.1;
+            z-index: -1;
+            pointer-events: none;
+        }
+        .demo-links {
+            text-align: center;
+            margin: 20px 0;
+            background: linear-gradient(to right, #333333, #666666);
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+        }
+        .demo-links a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .demo-links img {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .side-by-side-images img:first-child {
+            width: 50%;
+            margin: 0 2%;
+            display: inline-block;
+        }
+        .side-by-side-images img:last-child {
+            width: 40%;
+            margin: 0 2%;
+            display: inline-block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            width: 10%;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            text-align: center;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .fig-container img {
+            max-width: 72%; /* Reduced from 80% */
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+        .side-by-side-images img {
+            width: 40%; /* Reduced from 45% */
+            margin: 0 2%;
+            display: inline-block;
+        }
+        p {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        ul {
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
+        }
+        .features {
+            text-align: center;
+        }
+        .features ul {
+            padding-left: 20px;
+        }
+        .badges {
+            text-align: center;
+        }
+        .publication-authors {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .citation {
+            text-align: left;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .title {
+            font-size: 2em;
+            margin: 20px 0;
+            background: linear-gradient(to right, #333333, #666666);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+        .authors {
+            margin: 20px 0;
+        }
+        .badges {
+            margin: 20px 0;
+        }
+        .badges img {
+            margin: 0 5px;
+        }
+        .fig-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .fig-container img {
+            max-width: 60%;
+            height: auto;
+        }
+        .fig-containert img {
+            max-width: 40%;
+            height: auto;
+        }
+        .caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e0e0e0;
+        }
+        .logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .logos img {
+            height: 50px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            margin: 30px 0;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .citation {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/AIN.png" alt="AIN Logo" class="background-logo">
+    <div class="container">
+        
+        <img src="images/AIN.png" alt="AIN Logo" class="logo">
+        <h1 class="title">AIN: The Arabic INclusive Multimodal Model</h1>
+        <!-- Authors -->
+        <div class="is-size-5 publication-authors">
+            <p>
+                Ahmed Heakl<sup style="color:#3399FF;">1*</sup>, 
+                Sara Ghaboura<sup style="color:#3399FF;">1*</sup>, 
+                Omkar Thawakar<sup style="color:#3399FF;">1</sup>, <br>
+                Fahad S. Khan<sup style="color:#3399FF;">1, </sup><sup style="color:#FF66B3;">2</sup>, 
+                Hisham Cholakkal<sup style="color:#3399FF;">1</sup>,
+                Rao M. Anwer<sup style="color:#3399FF;">1, </sup><sup style="color:#4CB5AE;">3</sup>,
+                Salman Khan<sup style="color:#3399FF;">1, </sup><sup style="color:#FFA280;">4</sup>
+            </p>
+            <p>
+                <sup style="color:#3399FF;">1</sup>Mohamed bin Zayed University of AI, 
+                <sup style="color:#4CB5AE;">3</sup>Aalto University, 
+                <sup style="color:#FF66B3;">2</sup>Linköping University, 
+                <sup style="color:#FFA280;">4</sup>Australian National University
+            </p>
+        </div>
+
+           <!-- Badges -->
+     <div class="badges">
+            <a href="https://arxiv.org/abs/2410.18976"><img src="https://img.shields.io/badge/arXiv-2410.18976-3399FF" alt="arXiv"></a>
+            <a href="https://example.com"><img src="https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat" alt="Our Page"></a>
+            <a href="https://github.com/mbzuai-oryx/Camel-Bench/issues"><img src="https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat" alt="GitHub issues"></a>
+            <a href="https://github.com/mbzuai-oryx/AIN/stargazers"><img src="https://img.shields.io/github/stars/mbzuai-oryx/AIN?color=FF6A07&style=flat" alt="GitHub stars"></a>
+            <a href="https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666" alt="GitHub license"></a>
+        </div>
+    </div>
+    
+        <!-- Demo Links -->
+        <div class="demo-links">
+            <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1698/1698535.png" alt="Demo">
+                AIN Demo Chatbot
+            </a>
+            <a href="https://t.me/arabicvlm_bot" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+                AIN Telegram
+            </a>
+            <a href="https://wa.me/46738645096" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp">
+                AIN WhatsApp
+            </a>
+        </div>
+  
+        <!-- AIN Can See Figure -->
+        <div class="fig-container">
+            <img src="images/ain_can_see.png" alt="AIN Can See">
+            <p class="caption">
+                AIN, the Arabic Inclusive Multimodal Model, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA)
+                data to achieve state-of-the-art performance across diverse tasks and specialized domains.
+            </p>
+        </div>
+
+        <!-- Abstract -->
+        <div class="section">
+            <h2>Abstract</h2>
+            <p>
+                Amid the swift progress of large language models (LLMs) and their evolution into large multimodal models (LMMs), significant strides have been made in high-resource languages such as English and Chinese. While Arabic LLMs have seen notable progress, Arabic LMMs remain largely unexplored, often narrowly focusing on few specific aspects of the language and visual understanding. To bridge this gap, we introduce AIN—the Arabic Inclusive Multimodal Model—designed to excel across diverse domains.
+            </p>
+            <p>
+                AIN is an English-Arabic bilingual LMM designed to excel in both English and Arabic, leveraging a carefully constructed 3.6 million high-quality Arabic-English multimodal data samples. AIN demonstrates state-of-the-art Arabic performance, while also possessing strong English-language visual capabilities.
+            </p>
+        </div>
+
+        <!-- Latest Updates -->
+        <div class="section">
+            <h2>📢 Latest Updates</h2>
+            <p>🔥 <b>Jan 2025</b> AIN-7B model, the first Arabic Inclusive LMM, is released 🤗<br>
+            🚀 Model weights will be released soon.</p>
+        </div>
+
+        <!-- Key Features -->
+        <div class="features">
+            <h2>🌟 Key Features</h2>
+            <ul>
+                <li>First Arabic-centric inclusive Large Multimodal Model (LMM) trained on 3.6M samples</li>
+                <li>Includes 35% authentic Arabic data within its Arabic data subset</li>
+                <li>Achieves superior performance compared to both open- and closed-source models</li>
+                <li>Demonstrates robust bilingual capabilities (Arabic/English)</li>
+                <li>Exhibits advanced cultural understanding and domain expertise</li>
+            </ul>
+        </div>
+
+        <!-- Performance Analysis Figures -->
+        <div class="fig-container">
+            <img src="images/radar_chart.png" alt="Performance Analysis">
+            <p class="caption">Figure 1: Performance analysis of AIN-7B across CAMEL-Bench domains</p>
+        </div>
+
+        <div class="fig-container">
+            <img src="images/intro_bar.png" alt="Comparative Performance">
+            <p class="caption">Figure 2: Comparative performance across key domains</p>
+        </div>
+
+        <!-- Qualitative Analysis -->
+        <div class="fig-container side-by-side-images">
+            <img src="images/contre.png" alt="Qualitative Comparison" width=80%>
+            <img src="images/qualitative.png" alt="Qualitative Examples">
+            <p class="caption">Figure 3: Qualitative analysis and examples</p>
+        </div>
+
+        <div class="container">
+        <p align="center">
+            <table>
+                <thead>
+                    <tr style="background-color: #e0e0e0;">
+                        <th>Models</th>
+                        <th>VQA</th>
+                        <th>OCR</th>
+                        <th>Video</th>
+                        <th>RS</th>
+                        <th>CDT</th>
+                        <th>Agro.</th>
+                        <th>Cult.</th>
+                        <th>Med.</th>
+                        <th style="background-color: #d0d0d0;">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GPT-4o</td>
+                        <td>🥇57.91</td>
+                        <td>🥈54.68</td>
+                        <td>🥇74.28</td>
+                        <td>🥈22.85</td>
+                        <td>62.12</td>
+                        <td>🥈81.79</td>
+                        <td>🥇79.92</td>
+                        <td>🥇49.26</td>
+                        <td style="background-color: #d0d0d0;">🥈60.35</td>
+                    </tr>
+                    <tr>
+                        <td>GPT-4o-mini</td>
+                        <td>48.83</td>
+                        <td>39.38</td>
+                       <td>🥈68.12</td>
+                        <td>16.93</td>
+                        <td>🥇70.16</td>
+                        <td>79.58</td>
+                        <td>65.92</td>
+                       <td>🥈47.37</td>
+                        <td style="background-color: #d0d0d0;">54.54</td>
+                    </tr>
+                    <tr>
+                        <td>Gemini-1.5-Pro</td>
+                        <td>46.68</td>
+                        <td>28.68</td>
+                        <td>42.95</td>
+                        <td>17.07</td>
+                        <td>47.06</td>
+                        <td>72.14</td>
+                        <td>56.24</td>
+                        <td>33.78</td>
+                        <td style="background-color: #d0d0d0;">52.38</td>
+                    </tr>
+                    <tr>
+                        <td>Gemini-1.5-flash</td>
+                        <td>45.59</td>
+                        <td>27.58</td>
+                        <td>53.31</td>
+                        <td>14.95</td>
+                        <td>48.26</td>
+                        <td>76.07</td>
+                        <td>46.54</td>
+                        <td>42.87</td>
+                        <td style="background-color: #d0d0d0;">44.40</td>
+                    </tr>
+                    <tr>
+                        <td>InternVL-8B </td>
+                        <td>30.41 </td>
+                        <td>15.91 </td>
+                        <td>51.42 </td>
+                        <td>5.36 </td>
+                        <td>30.27 </td>
+                        <td>44.47 </td>
+                        <td>20.88 </td>
+                        <td>29.48 </td>
+                        <td style="background-color: #d0d0d0;">28.52 </td>
+                    </tr>
+                    <tr>
+                        <td>InternVL2.5-1B </td>
+                        <td>27.22 </td>
+                        <td>19.45 </td>
+                        <td>38.20 </td>
+                        <td>3.39 </td>
+                        <td>30.75 </td>
+                        <td>39.53 </td>
+                        <td>35.68 </td>
+                        <td>21.27 </td>
+                        <td style="background-color: #d0d0d0;">26.94 </td>
+                    </tr>
+                    <tr>
+                        <td>Qwen-VL-2B </td>
+                        <td>41.02 </td>
+                        <td>22.93 </td>
+                        <td>38.90 </td>
+                        <td>12.56 </td>
+                        <td>27.83 </td>
+                        <td>52.02 </td>
+                        <td>34.28 </td>
+                        <td>29.12 </td>
+                        <td style="background-color: #d0d0d0;">32.33 </td>
+                    </tr>
+                    <tr>
+                        <td>AIN-7B <em>(ours)</em> </td>
+                       <td>🥈56.78 </td>
+                        <td>🥇72.35 </td>
+                        <td>64.09 </td>
+                        <td>🥇45.92 </td>
+                       <td>🥈64.10 </td>
+                        <td>🥇85.05 </td>
+                       <td>🥈78.09 </td>
+                        <td>43.77 </td>
+                        <td style="background-color: #d0d0d0;">🏆63.77 </td>
+                    </tr>
+                </tbody>
+                <div class="caption">
+                    <strong>Table 1. Performance comparison of AIN and different closed- and open-source LMMs across CAMEL-Bench domains.</strong> 
+                    <br> <em>Best performance is marked with 🥇; second-best is 🥈.</em>
+                        <strong>OCR</strong>: "OCR & Document Understanding", 
+                        <strong>Video</strong>: "General Video & Multi-Image Understanding", 
+                        <strong>RS</strong>: "Remote Sensing Understanding", 
+                        <strong>CDT</strong>: "Chart, Diagram & Table Understanding", 
+                        <strong>Agro.</strong>: "Agricultural Image Understanding", 
+                        <strong>Cult.</strong>: "Cultural-Specific Understanding",  
+                        <strong>Med.</strong>: "Medical Image Understanding".
+                </div>
+            </table>       
+        </div>
+
+        <!-- Verification Pipeline -->
+        <div class="section">
+            <h2>🧐 Data Verification and Toxicity Filtering</h2>
+            <div class="fig-container">
+                <img src="images/verify_pipeline.png" alt="Verification Pipeline">
+                <p class="caption">Figure 4: Data verification and filtering pipeline</p>
+            </div>
+            <div class="fig-containert" align="center">
+                <img src="images/toxicity.png" alt="Toxicity Distribution">
+                <p class="caption">Figure 5: Distribution of visual data toxicity filtering results</p>
+            </div>
+        </div>
+
+        <!-- Citation -->
+        <div class="section">
+            <h2>📚 Citation</h2>
+            <div class="citation">
+                @article{AIN2025,<br>
+                &nbsp;&nbsp;title={AIN: The Arabic Inclusive Multimodal Model},<br>
+                &nbsp;&nbsp;author={Heakl, Ahmed and Ghaboura, Sara and others},<br>
+                &nbsp;&nbsp;journal={arXiv preprint arXiv:2410.18976},<br>
+                &nbsp;&nbsp;year={2025}<br>
+                }
+            </div>
+        </div>
+
+        <!-- Logos -->
+        <div class="logos">
+            <img src="images/IVAL_logo.png" alt="IVAL Logo">
+            <img src="images/Oryx_logo.png" alt="Oryx Logo">
+            <img src="images/MBZUAI_logo.png" alt="MBZUAI Logo">
+        </div>
+    </div>
+</body>
+</html>
