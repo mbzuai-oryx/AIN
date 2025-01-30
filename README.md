@@ -28,7 +28,7 @@
   <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ Try Our AIN Model ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
    &emsp; &emsp;  &emsp;
   <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
-  &emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Demo Chatbot</a>
+  &emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Chatbot</a>
    &emsp; &emsp;
   <img src="https://github.com/user-attachments/assets/451fd639-7cb7-4e77-b7ed-c3678bf980e3" alt="telegram" width="25px" />
   &emsp; <a href="https://t.me/arabicvlm_bot" target="_blank">AIN Telegram</a>
