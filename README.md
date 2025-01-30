@@ -60,7 +60,7 @@
 
 ## <img src="images/AIN.png" width="4%" alt="AIN Logo"> Overview
 <p style="text-align: justify">
-AIN, the <b>Arabic Inclusive Multimodal Model</b>, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA) data to achieve state-of-the-art performance across diverse tasks and specialized domains. AIN is a <b>bilingual model</b> (MSA and English) with broad applications from <b>medical</b> to <b>agricultural</b> domains, excelling in <b>OCR and Document Understanding</b>, and <b>Remote Sensing Imaging</b>. Trained on <b>3.6M </b>samples, where <b>35%</b> of its Arabic data comes from authentic sources. Built on Qwen-2-VL, AIN empowers Arabic speakers with advanced, inclusive AI capabilities, outperforming leading models in key benchmarks. </p>
+AIN, the <b>First Arabic Inclusive Multimodal Model</b>, bridges the gap in generative AI for Arabic by leveraging Modern Standard Arabic (MSA) data to achieve state-of-the-art performance across diverse tasks and specialized domains. AIN is a <b>bilingual model</b> (MSA and English) with broad applications from <b>medical</b> to <b>agricultural</b> domains, excelling in <b>OCR and Document Understanding</b>, and <b>Remote Sensing Imaging</b>. Trained on <b>3.6M </b>samples, where <b>35%</b> of its Arabic data comes from authentic sources. Built on Qwen-2-VL, AIN empowers Arabic speakers with advanced, inclusive AI capabilities, outperforming leading models in key benchmarks. </p>
 <br>
 <p align="center" >
    <img src="images/radar_chart.png" width="65%" alt="radar_chart"  style="margin-right: 2px";/>
