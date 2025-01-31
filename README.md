@@ -1,12 +1,11 @@
-<div align="center" style="margin-top:50px;"> 
-   <img src='images/AIN.png' align="left" width="12%" />
-   
-   &nbsp;
-<div style="margin-top: 20px;">
-   <h1>AIN: The Arabic INclusive Multimodal Model</h1> 
-   
-<div>
-   
+<div  align="center" style="margin-top:10px;"> 
+ <img src='images/AIN_logo_git_5.png' align="left" width="18%" />
+   <br>
+<div style="margin-top:50px;">
+  <h1 style="font-size: 30px; margin: 0;">The Arabic INclusive Multimodal Model</h1>
+   </div>
+
+
 [Ahmed Heakl](https://huggingface.co/ahmedheakl) <sup> * </sup> &nbsp;
 [Sara Ghaboura](https://huggingface.co/SLMLAH) <sup> * </sup> &nbsp;
 [Omkar Thawakar](https://omkarthawakar.github.io) &nbsp;
@@ -24,6 +23,10 @@
   <br>
 <em> <sup> *Equal Contribution  </sup> </em>
 
+</div>
+
+<div align="center">
+
 ---
   <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ Try Our AIN Model ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
    &emsp; &emsp;  &emsp;
@@ -36,6 +39,7 @@
   <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
     <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
+</div>
 </div>
 </div>
 
