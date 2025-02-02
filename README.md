@@ -23,14 +23,14 @@
   [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666)](https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE)
   <br>
 <em> <sup> *Equal Contribution  </sup> </em>
-
+  <br>
+  <br>
 </div>
 
 <div align="center">
 
-  <img src='images/Try.png' align="center" width="90%" />
-  <br>
-  <br>
+  <img src='images/Try.png' align="center" width="95%" />
+
   
    &emsp; &emsp;  &emsp;
   <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
@@ -41,7 +41,9 @@
  &emsp; &emsp;
   <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
-    <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
+
+
+  <img src='images/try2.png' align="center" width="95%" />
 </div>
 </div>
 </div>
