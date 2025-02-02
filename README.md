@@ -56,7 +56,7 @@
 <br>
 
 ## 📢 Latest Updates
- 🔥 **Jan 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.<br>
+ 🔥 **03 Feb 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.<br>
  🚀 Model weights will be released soon. 
 <br>
 <br>
@@ -130,100 +130,100 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
     </thead>
     <tbody>
         <tr>
-            <td><h5>GPT-4o</h5></td>
-            <td><h5>🥇57.91</h5></td>
-            <td><h5>🥈54.68</h5></td>
-            <td><h5>🥇74.28</h5></td>
-            <td><h5>🥈22.85</h5></td>
-            <td><h5>62.12</h5></td>
-            <td><h5>🥈81.79</h5></td>
-            <td><h5>🥇79.92</h5></td>
-            <td><h5>🥇49.26</h5></td>
-            <td><h5>🥈60.35</h5></td>
+            <td>GPT-4o</td>
+            <td>🥇57.91</td>
+            <td>🥈54.68</td>
+            <td>🥇74.28</td>
+            <td>🥈22.85</td>
+            <td>62.12</td>
+            <td>🥈81.79</td>
+            <td>🥇79.92</td>
+            <td>🥇49.26</td>
+            <td>🥈60.35</td>
         </tr>
         <tr>
-            <td><h5>GPT-4o-mini</h5></td>
-            <td><h5>48.83</h5></td>
-            <td><h5>39.38</h5></td>
-           <td><h5>🥈68.12</h5></td>
-            <td><h5>16.93</h5></td>
-            <td><h5>🥇70.16</h5></td>
-            <td><h5>79.58</h5></td>
-            <td><h5>65.92</h5></td>
-           <td><h5>🥈47.37</h5></td>
-            <td style="background-color: #d0d0d0;"><h5>54.54</h5></td>
+            <td>GPT-4o-mini</td>
+            <td>48.83</td>
+            <td>39.38</td>
+           <td>🥈68.12</td>
+            <td>16.93</td>
+            <td>🥇70.16</td>
+            <td>79.58</td>
+            <td>65.92</td>
+           <td>🥈47.37</td>
+            <td style="background-color: #d0d0d0;">54.54</td>
         </tr>
         <tr>
-            <td><h5>Gemini-1.5-Pro</h5></td>
-            <td><h5>46.68</h5></td>
-            <td><h5>28.68</h5></td>
-            <td><h5>42.95</h5></td>
-            <td><h5>17.07</h5></td>
-            <td><h5>47.06</h5></td>
-            <td><h5>72.14</h5></td>
-            <td><h5>56.24</h5></td>
-            <td><h5>33.78</h5></td>
-            <td style="background-color: #d0d0d0;"><h5>52.38</h5></td>
+            <td>Gemini-1.5-Pro</td>
+            <td>46.68</td>
+            <td>28.68</td>
+            <td>42.95</td>
+            <td>17.07</td>
+            <td>47.06</td>
+            <td>72.14</td>
+            <td>56.24</td>
+            <td>33.78</td>
+            <td style="background-color: #d0d0d0;">52.38</td>
         </tr>
         <tr>
-            <td><h5>Gemini-1.5-flash</h5></td>
-            <td><h5>45.59</h5></td>
-            <td><h5>27.58</h5></td>
-            <td><h5>53.31</h5></td>
-            <td><h5>14.95</h5></td>
-            <td><h5>48.26</h5></td>
-            <td><h5>76.07</h5></td>
-            <td><h5>46.54</h5></td>
-            <td><h5>42.87</h5></td>
-            <td style="background-color: #d0d0d0;"><h5>44.40</h5></td>
+            <td>Gemini-1.5-flash</td>
+            <td>45.59</td>
+            <td>27.58</td>
+            <td>53.31</td>
+            <td>14.95</td>
+            <td>48.26</td>
+            <td>76.07</td>
+            <td>46.54</td>
+            <td>42.87</td>
+            <td style="background-color: #d0d0d0;">44.40</td>
         </tr>
         <tr>
-            <td><h5>InternVL-8B</h5> </td>
-            <td><h5>30.41</h5> </td>
-            <td><h5>15.91</h5> </td>
-            <td><h5>51.42</h5> </td>
-            <td><h5>5.36</h5> </td>
-            <td><h5>30.27</h5> </td>
-            <td><h5>44.47</h5> </td>
-            <td><h5>20.88</h5> </td>
-            <td><h5>29.48</h5> </td>
-            <td style="background-color: #d0d0d0;"><h5>28.52</h5> </td>
+            <td>InternVL-8B </td>
+            <td>30.41 </td>
+            <td>15.91 </td>
+            <td>51.42 </td>
+            <td>5.36 </td>
+            <td>30.27 </td>
+            <td>44.47 </td>
+            <td>20.88 </td>
+            <td>29.48 </td>
+            <td style="background-color: #d0d0d0;">28.52 </td>
         </tr>
         <tr>
-            <td><h5>InternVL2.5-1B</h5> </td>
-            <td><h5>27.22</h5> </td>
-            <td><h5>19.45</h5> </td>
-            <td><h5>38.20</h5> </td>
-            <td><h5>3.39</h5> </td>
-            <td><h5>30.75</h5> </td>
-            <td><h5>39.53</h5> </td>
-            <td><h5>35.68</h5> </td>
-            <td><h5>21.27</h5> </td>
-            <td style="background-color: #d0d0d0;"><h5>26.94</h5> </td>
+            <td>InternVL2.5-1B </td>
+            <td>27.22 </td>
+            <td>19.45 </td>
+            <td>38.20 </td>
+            <td>3.39 </td>
+            <td>30.75 </td>
+            <td>39.53 </td>
+            <td>35.68 </td>
+            <td>21.27 </td>
+            <td style="background-color: #d0d0d0;">26.94 </td>
         </tr>
         <tr>
-            <td><h5>Qwen-VL-2B</h5> </td>
-            <td><h5>41.02</h5> </td>
-            <td><h5>22.93</h5> </td>
-            <td><h5>38.90</h5> </td>
-            <td><h5>12.56</h5> </td>
-            <td><h5>27.83</h5> </td>
-            <td><h5>52.02</h5> </td>
-            <td><h5>34.28</h5> </td>
-            <td><h5>29.12</h5> </td>
-            <td style="background-color: #d0d0d0;"><h5>32.33</h5> </td>
+            <td>Qwen-VL-2B </td>
+            <td>41.02 </td>
+            <td>22.93 </td>
+            <td>38.90 </td>
+            <td>12.56 </td>
+            <td>27.83 </td>
+            <td>52.02 </td>
+            <td>34.28 </td>
+            <td>29.12 </td>
+            <td style="background-color: #d0d0d0;">32.33 </td>
         </tr>
         <tr>
-            <td><h5>AIN-7B <em>(ours)</em></h5> </td>
-           <td><h5>🥈56.78</h5> </td>
-            <td><h5>🥇72.35</h5> </td>
-            <td><h5>64.09</h5> </td>
-            <td><h5>🥇45.92</h5> </td>
-           <td><h5>🥈64.10</h5> </td>
-            <td><h5>🥇85.05</h5> </td>
-           <td><h5>🥈78.09</h5> </td>
-            <td><h5>43.77</h5> </td>
-            <td style="background-color: #d0d0d0;"><h5>🏆63.77</h5> </td>
+            <td>AIN-7B <em>(ours)</em> </td>
+           <td>🥈56.78 </td>
+            <td>🥇72.35 </td>
+            <td>64.09 </td>
+            <td>🥇45.92 </td>
+           <td>🥈64.10 </td>
+            <td>🥇85.05 </td>
+           <td>🥈78.09 </td>
+            <td>43.77 </td>
+            <td style="background-color: #d0d0d0;">🏆63.77 </td>
         </tr>
     </tbody>
 </table>
