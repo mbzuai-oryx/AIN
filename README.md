@@ -28,8 +28,10 @@
 
 <div align="center">
 
----
-  <h2>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ Try Our AIN Model ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ </h2>
+  <img src='images/Try.png' align="center" width="90%" />
+  <br>
+  <br>
+  
    &emsp; &emsp;  &emsp;
   <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
   &emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Chatbot</a>
