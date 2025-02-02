@@ -29,9 +29,10 @@
 
 <div align="center">
 
-  <img src='images/Try.png' align="center" width="95%" />
+  <img src='images/Try.png' align="center" width="100%" />
 
-  
+  <br>
+  <br>
    &emsp; &emsp;  &emsp;
   <img src="https://github.com/user-attachments/assets/29421075-ec74-4843-ad8a-8bd9dfd535d6" alt="chatbot" width="30px" />
   &emsp; <a href="https://huggingface.co/spaces/ahmedheakl/AIN-Arabic-VLM" target="_blank">AIN Chatbot</a>
@@ -41,9 +42,10 @@
  &emsp; &emsp;
   <img src="https://github.com/user-attachments/assets/35bd262d-55d1-45e9-8382-e44567b09102" alt="WhatsApp" width="25px" />
   &emsp; <a href="https://wa.me/46738645096" target="_blank">AIN WhatsApp</a> 
-
-
-  <img src='images/try2.png' align="center" width="95%" />
+  <br>
+  <br>
+ <br>
+  <img src='images/try3.png' align="center" width="100%" />
 </div>
 </div>
 </div>
