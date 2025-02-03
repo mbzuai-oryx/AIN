@@ -18,7 +18,7 @@
 <br>
   [![arXiv](https://img.shields.io/badge/arXiv-2410.18976-3399FF)](https://arxiv.org/abs/2410.18976)
   [![Our Page](https://img.shields.io/badge/Visit-Our%20Page-8C7AFF?style=flat)](https://mbzuai-oryx.github.io/AIN/)
-  [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/Camel-Bench/issues)
+  [![GitHub issues](https://img.shields.io/github/issues/mbzuai-oryx/Camel-Bench?color=FFF359&label=issues&style=flat)](https://github.com/mbzuai-oryx/AIN/issues)
   [![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/AIN?color=FF6A07&style=flat)](https://github.com/mbzuai-oryx/AIN/stargazers)
   [![GitHub license](https://img.shields.io/github/license/mbzuai-oryx/Camel-Bench?color=FF6666)](https://github.com/mbzuai-oryx/Camel-Bench/blob/main/LICENSE)
   <br>
