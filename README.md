@@ -294,8 +294,6 @@ If you use AIN LMM in your research, please consider citing:
       author={Ahmed Heakl and Sara Ghaboura and Omkar Thawkar and Fahad Shahbaz Khan and Hisham Cholakkal and Rao Muhammad Anwer and Salman Khan},
       year={2025},
       eprint={2502.00094},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
       url={https://arxiv.org/abs/2502.00094}, 
 ```
 <br>
