@@ -1,4 +1,4 @@
-<div  align="center" style="margin-top:10px;"> 
+ <div  align="center" style="margin-top:10px;"> 
   <img src='images/bgrd.png' align="left" width="18%" />
  <img src='images/AIN_logo_git_5.png' align="left" width="18%" />
    <br>
@@ -289,7 +289,14 @@ For questions or suggestions, feel free to reach out to us on [GitHub Discussion
 If you use AIN LMM in your research, please consider citing:
 
 ```bibtex
-
+@misc{heakl2025ainarabicinclusivelarge,
+      title={AIN: The Arabic INclusive Large Multimodal Model}, 
+      author={Ahmed Heakl and Sara Ghaboura and Omkar Thawkar and Fahad Shahbaz Khan and Hisham Cholakkal and Rao Muhammad Anwer and Salman Khan},
+      year={2025},
+      eprint={2502.00094},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.00094}, 
 ```
 <br>
 
