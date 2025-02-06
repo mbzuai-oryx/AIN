@@ -146,7 +146,7 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
             <td>🥈80.75</td>
             <td>🥇80.86</td>
             <td>🥇49.91</td>
-            <td>🥈60.13</td>
+            <td style="background-color: #d0d0d0;">🥈60.13</td>
         </tr>
         <tr>
             <td>GPT-4o-mini</td>
@@ -274,7 +274,7 @@ A multi-step verification pipeline was implemented to ensure high-quality transl
 <br>
 
 ---
-##  License
+## 🔒 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 <br>
 <br>
