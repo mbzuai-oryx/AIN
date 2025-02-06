@@ -141,7 +141,7 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
             <td>🥈55.15</td>
             <td>🥈54.98</td>
             <td>🥇69.65</td>
-            <td>27.36</td>
+            <td>🥈27.36</td>
             <td>🥈62.35</td>
             <td>🥈80.75</td>
             <td>🥇80.86</td>
