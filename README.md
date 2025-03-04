@@ -63,8 +63,8 @@
 <br>
 
 ## 📢 Latest Updates
- 🔥 **03 Feb 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.<br>
  🚀 **04 Mar 2025** Model weights are released. Check it out at [huggingface](https://huggingface.co/MBZUAI/AIN).<br>
+ 🔥 **03 Feb 2025** AIN-7B model the first Arabic Inclusive LMM is released 🤗.<br>
 <br>
 <br>
 
