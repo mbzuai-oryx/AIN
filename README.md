@@ -221,6 +221,18 @@ AIN demonstrates state-of-the-art performance across diverse domains, surpassing
             <td style="background-color: #d0d0d0;">32.33 </td>
         </tr>
         <tr>
+               <td>Qwen2-VL-7B </td>
+               <td>48.76 </td>
+               <td>42.73 </td>
+               <td>61.97 </td>
+               <td>21.30 </td>
+               <td>54.67 </td>
+               <td>79.32 </td>
+               <td>75.96 </td>
+               <td>35.81 </td>
+               <td style="background-color: #d0d0d0;">52.57 </td>
+           </tr>
+        <tr>
             <td>AIN-7B <em>(ours)</em> </td>
            <td>🥇56.78 </td>
             <td>🥇72.35 </td>
